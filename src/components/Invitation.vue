@@ -4,11 +4,11 @@
       <div class="invitation-cover">
         <div class="cover-content" :class="{'invitation-up':isOpening}">
           <div class="content-inside">
-            <img class="content-inside-photo" src="../images/photo.jpg">
+            <img class="content-inside-photo" src="../images/MOHA9223.jpg">
             <p>我们结婚啦！</p>
-            <p><b>Jun & undefined</b></p>
-            <p>时间：invalid date value</p>
-            <p>地点：<b>location can not be found</b></p>
+            <p><b>薛少毅 & 刘芳锦</b></p>
+            <p>时间：2020年10月6日(农历 八月二十)</p>
+            <p>地点：<b>河北省辛集市位伯镇南四仲村</b></p>
             <div class="content-inside-bless">
               <input
                 placeholder="写下你的祝福" 

@@ -1,6 +1,7 @@
 {
-  "name": "薛少毅 刘芳锦 结婚邀请函",
+  "name": "test",
   "version": "0.1.0",
+  "description": "我们结婚了",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",

@@ -4,7 +4,9 @@
       <div class="invitation-cover">
         <div class="cover-content" :class="{'invitation-up':isOpening}">
           <div class="content-inside">
+          <div  @click="skip('http://qy1620481.qyxunhu.top/weddingdbs/6274409.html')">
             <img class="content-inside-photo" src="../images/MOHA9223.jpg">
+            </div>
             <p>我们结婚啦！</p>
             <p><b>薛少毅 & 刘芳锦</b></p>
             <p>时间：2020年10月6日(农历 八月二十)</p>
@@ -69,7 +71,10 @@ export default {
           this.$emit('sendBarrage', this.wish)
         }, 660)
       })
-    }
+    },
+    skip (url) {
+          location.href = url
+          }
   }
 }
 </script>

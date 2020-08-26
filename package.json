@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve --open --port 9999",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --open --port 9999",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
